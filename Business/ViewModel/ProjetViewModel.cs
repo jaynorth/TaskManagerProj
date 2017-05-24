@@ -12,8 +12,8 @@ namespace Business.ViewModel
 
         public ProjetViewModel()
         {
-            _ListProjects = new List<Project>(_entity.Projects);
-            _currentProject = ListProjects.FirstOrDefault();
+           _ListProjects = new List<Project>(_entity.Projects);
+           _currentProject = ListProjects.FirstOrDefault();
         }
 
         private List<Project> _ListProjects;

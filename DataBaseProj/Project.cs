@@ -30,8 +30,8 @@ namespace DataBaseProj
         public Nullable<int> CategID { get; set; }
     
         public virtual Category Category { get; set; }
-        public virtual CLient CLient { get; set; }
         public virtual Owner Owner { get; set; }
+        public virtual CLient CLient { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Task> Tasks { get; set; }
     }

@@ -4,21 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="157b7c24a5f448ee86f05d1de5e79854" Name="Diagram1" ZoomLevel="100">
-        <EntityTypeShape EntityType="TaskManDBModel.Category" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="TaskManDBModel.CLient" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TaskManDBModel.Owner" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+      <Diagram DiagramId="122eedc606da4ee4836e4ad626f7829f" Name="Diagram1">
+        <EntityTypeShape EntityType="TaskManDBModel.Category" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManDBModel.CLient" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManDBModel.Owner" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="TaskManDBModel.Project" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable" ManuallyRouted="false" />
-        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable_1" ManuallyRouted="false" />
-        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable_2" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="TaskManDBModel.Task" Width="1.5" PointX="5.25" PointY="1.375" />
+        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable_1" />
+        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable_2" />
+        <EntityTypeShape EntityType="TaskManDBModel.Task" Width="1.5" PointX="5.25" PointY="1.5" />
         <AssociationConnector Association="TaskManDBModel.FK_Task_ToTable" />
-        <EntityTypeShape EntityType="TaskManDBModel.Category1" Width="1.5" PointX="3.375" PointY="6.5" />
-        <EntityTypeShape EntityType="TaskManDBModel.CLient1" Width="1.5" PointX="7.375" PointY="0.75" />
-        <EntityTypeShape EntityType="TaskManDBModel.Owner1" Width="1.5" PointX="8.375" PointY="3.75" />
-        <EntityTypeShape EntityType="TaskManDBModel.Project1" Width="1.5" PointX="5.625" PointY="6" />
-        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

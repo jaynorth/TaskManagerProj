@@ -24,7 +24,7 @@ namespace WPFtaskManager
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new ProjetViewModel();
+           DataContext  = new ProjetViewModel();
         }
     }
 }
