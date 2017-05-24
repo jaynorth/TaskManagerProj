@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFtaskManager", "WPFtaskManager\WPFtaskManager.csproj", "{02BF8A7D-AEFD-458D-A098-BBEE41F987D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseProj", "DataBaseProj\DataBaseProj.csproj", "{CEFBF1AE-D506-445D-B25D-73C225E31574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{4BD99A37-23A6-4577-8A9D-B0773DDFA8D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{02BF8A7D-AEFD-458D-A098-BBEE41F987D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02BF8A7D-AEFD-458D-A098-BBEE41F987D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02BF8A7D-AEFD-458D-A098-BBEE41F987D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFBF1AE-D506-445D-B25D-73C225E31574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFBF1AE-D506-445D-B25D-73C225E31574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFBF1AE-D506-445D-B25D-73C225E31574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFBF1AE-D506-445D-B25D-73C225E31574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD99A37-23A6-4577-8A9D-B0773DDFA8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD99A37-23A6-4577-8A9D-B0773DDFA8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD99A37-23A6-4577-8A9D-B0773DDFA8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD99A37-23A6-4577-8A9D-B0773DDFA8D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
