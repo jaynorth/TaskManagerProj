@@ -30,5 +30,9 @@ namespace DataBaseProj
         public virtual DbSet<Owner> Owners { get; set; }
         public virtual DbSet<Project> Projects { get; set; }
         public virtual DbSet<Task> Tasks { get; set; }
+        public virtual DbSet<Category1> Categories1 { get; set; }
+        public virtual DbSet<CLient1> CLient1 { get; set; }
+        public virtual DbSet<Owner1> Owner1 { get; set; }
+        public virtual DbSet<Project1> Project1 { get; set; }
     }
 }

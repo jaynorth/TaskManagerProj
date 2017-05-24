@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace WPFtaskManager
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ProjetViewModel();
         }
     }
 }

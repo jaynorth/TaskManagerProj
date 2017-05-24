@@ -14,6 +14,11 @@
         <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable_2" ManuallyRouted="false" />
         <EntityTypeShape EntityType="TaskManDBModel.Task" Width="1.5" PointX="5.25" PointY="1.375" />
         <AssociationConnector Association="TaskManDBModel.FK_Task_ToTable" />
+        <EntityTypeShape EntityType="TaskManDBModel.Category1" Width="1.5" PointX="3.375" PointY="6.5" />
+        <EntityTypeShape EntityType="TaskManDBModel.CLient1" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TaskManDBModel.Owner1" Width="1.5" PointX="8.375" PointY="3.75" />
+        <EntityTypeShape EntityType="TaskManDBModel.Project1" Width="1.5" PointX="5.625" PointY="6" />
+        <AssociationConnector Association="TaskManDBModel.FK_Project_ToTable1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
